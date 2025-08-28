@@ -1,147 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
 
-header {
- display: flex;
-  justify-content: space-between;      
-  margin-top: 40px;       
-}
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-top: 20px;
+            margin-left: 400px;
+        }
 
-.logo {
-    width: 150px;
-    height: auto;
-    margin-top: 20px;
-    margin-left: 400px;
-}
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+        .nav {
+            text-decoration: none;
+            color: inherit;
+            pointer-events: none;
+            color: rgb(255, 223, 39);
 
-.nav {
-text-decoration: none;
-color: inherit;
-pointer-events: none;
-color: rgb(255, 223, 39);
+        }
 
-  }
+        .nav-menu {
+            display: flex;
+            gap: 30px;
+            justify-content: end;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-right: 450px;
+        }
 
-.nav-menu {
-    display: flex;
-    gap: 30px;
-    justify-content: end;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-right: 450px;
-}
+        h1 {
+            text-align: center;
+            margin-top: 140px;
+        }
 
-h1 {
-    text-align: center;
-    margin-top: 140px;
-}
+        .services {
+            display: flex;
+            margin-top: 100px;
+            max-width: 1000px;
+            max-height: 500px;
+            justify-content: center;
+            gap: 70px;
+            margin: 0 auto;
+            margin-top: 100px;
 
-.services {
-    display: flex;
-    margin-top: 100px;
-    max-width: 1000px;
-    max-height: 500px;
-    justify-content: center;
-    gap: 70px;
-    margin: 0 auto;
-    margin-top: 100px;
-    
-}
+        }
 
- .card {
-     text-align: center;
-    }
-
+        .card {
+            text-align: center;
+        }
 
 
-.img {
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
 
+        .img {
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
+
 <body>
     <header>
 
-<img class="logo" src="img/Logo.png" alt="logo">
+        <img class="logo" src="./img/Logo.png" alt="logo">
 
-<ul class="nav-menu">
-    <li><a class="nav" href="#">Home</a></li>
-     <li><a class="nav" href="#">Services</a></li>
-     <li><a class="nav" href="#">Portfolio</a></li>
-    <li><a class="nav"href="#">About</a></li>
-    <li><a class="nav"href="#">Contact</a></li>
-</ul>
+        <ul class="nav-menu">
+            <li><a class="nav" href="#">Home</a></li>
+            <li><a class="nav" href="#">Services</a></li>
+            <li><a class="nav" href="#">Portfolio</a></li>
+            <li><a class="nav" href="#">About</a></li>
+            <li><a class="nav" href="#">Contact</a></li>
+        </ul>
     </header>
 
-<h1>SERVICES</h1>
+    
 
-<section class="services">
+    <section class="services">
 
-    <div class="card">
-<img class="img" src="img/basket.png" alt="">
-<h2>E-Commerce</h2>
-<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-    </div class="card">
+        <h2 class="">SERVICES</h2>
 
-    <div class="card">
-<img class="img" src="img/laptop.png" alt="">
-<h2>Responsive Web</h2>
-<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-    </div>
+        <ul>
+        <li class="card">
+            <img class="img" src="./img/basket.png" alt="">
+            <h2>E-Commerce</h2>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
+                odio in tincidunt.</p>
+        </li>
 
-    <div class="card">
-<img class="img" src="img/keylock.png" alt="">
-<h2>Web Security</h2>
-<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-    </div class="card">
+        <li class="card">
+            <img class="img" src="./img/laptop.png" alt="">
+            <h2>Responsive Web</h2>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
+                odio in tincidunt.</p>
+        </li>
 
-</section>
+        <li class="card">
+            <img class="img" src="./img/keylock.png" alt="">
+            <h2>Web Security</h2>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
+                odio in tincidunt.</p>
+        </li> 
+</ul>
+    </section>
 
 
-<h2> CONTACT US</h2>
 
-<section>
 
-<form>
+    <section>
 
-<div>
-     <input type="text" name="name" placeholder="YOUR NAME*" required>
-</div>
+        <h2> CONTACT US</h2>
 
-<div>
-    <input type="text" name="email" placeholder="YOUR EMAIL*" required>
-</div>
 
-<div>
-    <input type="text" name="phone" placeholder="YOUR PHONE*" required>
-</div>
+        <form>
 
-<div>
-    <textarea name="message" placeholder="YOUR MESSAGE*" required></textarea>
-</div>
-  <button type="submit">SEND MESSAGE</button>
+          
+                <input type="text" name="name" placeholder="YOUR NAME*" required>
+           
 
-</form>
+           
+                <input type="text" name="email" placeholder="YOUR EMAIL*" required>
+           
 
-</section>
+           
+                <input type="text" name="phone" placeholder="YOUR PHONE*" required>
+            
+
+           
+                <textarea name="message" placeholder="YOUR MESSAGE*" required></textarea>
+           
+            <button type="submit">SEND MESSAGE</button>
+
+        </form>
+
+    </section>
 
 
 </body>
+
 </html>
